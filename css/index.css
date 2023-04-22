@@ -1,0 +1,153 @@
+/*body*/
+.body-class {
+    padding-top: 220px;
+    box-sizing: content-box;
+   
+  }
+
+body {
+    background-color: #cd422d;
+    color: #f6f1e2;
+}
+/*navigation*/
+.fonts {
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 3rem;
+  color: #9b7e7d!important;
+}
+
+ .navbar-nav, .custom-color {
+    text-align: center;
+    background-color: #f6f1e2;
+    text-decoration: none;
+}
+
+.logo-pic {
+  max-width: 400px;
+  height: auto;
+}
+
+
+
+/* unvisited link */
+a:link {
+  color: #cd422d;
+}
+
+  /* visited link */
+a:visited {
+  color: #cd422d;
+}
+  
+  /* mouse over link */
+a:hover {
+    color: olive;
+}
+  
+  /* selected link */
+a:active {
+    color: olive;
+}
+
+/*about content*/
+.text-box-styles {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.about-info {
+  padding-top: 145px;
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  padding-bottom: 120px;
+  font-size: 18px;
+  line-height: 25px;
+
+}
+.about-pg {
+  text-transform: lowercase;
+  margin: 0 0 38px 0;
+  font-size: 80px;
+  line-height: 60px;
+  font-weight: 600;
+}
+
+.about-p-pg {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.about-h2 {
+  font-weight: 500;
+}
+
+ 
+/* footer */
+.index-footer .spcl {
+  text-decoration: none;
+  color: #cd422d;
+  background-color: #f6f1e2;
+}
+
+.footer-logo {
+max-width: 300px;
+height: auto;
+}
+
+.button {
+display: inline-block;
+font-size: 15px;
+line-height: 1px;
+text-transform: uppercase;
+color: var(--color-white);
+background: var(--color-red);
+border: 1px solid #f6f1e2;
+padding: 11px 33px 9px 33px;
+transition: all 0.15s ease;
+text-decoration: none;
+letter-spacing: 1.2px;
+font-weight: 500;
+min-width: 150px;
+overflow-wrap: none;
+cursor: pointer;
+appearance: none;
+border-radius: 0;
+font-family: canada-type-gibson, sans-serif;
+height: auto;
+margin: 0;
+}
+
+.button1 {
+  background-color: #f6f1e2; 
+  color: black; 
+  border: 1px solid #efcaca;
+  font-size: 15px;
+}
+
+.button1:hover {
+  background-color: #efcaca;
+  color: #19191a;
+}
+
+.form-control:valid {
+background-color: #f6f1e2; 
+border: 1px solid #19191A;
+transition-duration: 0.4s;
+}
+
+.footer-content {
+    border-top: 2px solid #cd422d;
+}
+
+footer {
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #cd422d;
+  background-color: #f6f1e2;
+}
