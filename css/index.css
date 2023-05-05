@@ -9,6 +9,7 @@ body {
     background-color: #cd422d;
     color: #f6f1e2;
 }
+
 /*navigation*/
 .fonts {
   font-family: canada-type-gibson, sans-serif;
@@ -29,26 +30,28 @@ body {
   height: auto;
 }
 
-
-
 /* unvisited link */
+.navbar-nav > li >
 a:link {
   color: #cd422d;
 }
 
   /* visited link */
+.navbar-nav > li >
 a:visited {
   color: #cd422d;
 }
   
   /* mouse over link */
+.navbar-nav > li >
 a:hover {
-    color: olive;
+  color: #efcaca;
 }
   
   /* selected link */
+.navbar-nav > li >
 a:active {
-    color: olive;
+ color: #efcaca;
 }
 
 /*about content*/
@@ -63,7 +66,7 @@ a:active {
   font-family: canada-type-gibson, sans-serif;
   font-weight: 300;
   font-style: normal;
-  padding-bottom: 120px;
+  padding-bottom: 30px;
   font-size: 18px;
   line-height: 25px;
 
@@ -101,10 +104,11 @@ height: auto;
 .button {
 display: inline-block;
 font-size: 15px;
+font-family: canada-type-gibson, sans-serif;
+height: auto;
+margin: 0;
 line-height: 1px;
 text-transform: uppercase;
-color: var(--color-white);
-background: var(--color-red);
 border: 1px solid #f6f1e2;
 padding: 11px 33px 9px 33px;
 transition: all 0.15s ease;
@@ -116,9 +120,7 @@ overflow-wrap: none;
 cursor: pointer;
 appearance: none;
 border-radius: 0;
-font-family: canada-type-gibson, sans-serif;
-height: auto;
-margin: 0;
+text-align: center;
 }
 
 .button1 {
@@ -130,7 +132,7 @@ margin: 0;
 
 .button1:hover {
   background-color: #efcaca;
-  color: #19191a;
+  color: #cd422d;
 }
 
 .form-control:valid {
@@ -151,3 +153,41 @@ footer {
   color: #cd422d;
   background-color: #f6f1e2;
 }
+
+.footer-copyright {
+  background: #efcaca;
+  text-align: center;
+  color: #cd422d;
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: .8rem;
+}
+
+/* media queries */
+
+@media screen and (max-width: 480px) {
+  .logo-pic {
+    max-width: 70%;
+    height: auto;
+    margin: 0;
+  }
+
+  .nav-link {
+    flex-wrap: wrap;
+    padding-top: 20px;
+    font-weight: 400px;
+  }
+  .navbar{
+    min-width: 255px;
+  }
+  .navbar-brand {
+    max-width: 65%;
+  }
+
+  .navbar-nav {
+    min-height: 100vh;
+  }
+}
+
+/*end media queries */
