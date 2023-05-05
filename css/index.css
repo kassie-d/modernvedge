@@ -1,4 +1,10 @@
 /*body*/
+
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 .body-class {
     padding-top: 220px;
     box-sizing: content-box;
@@ -90,6 +96,7 @@ a:active {
 
  
 /* footer */
+
 .index-footer .spcl {
   text-decoration: none;
   color: #cd422d;
@@ -164,9 +171,9 @@ footer {
   font-size: .8rem;
 }
 
-/* media queries */
 
-@media screen and (max-width: 480px) {
+/* Styles for mobile devices */
+@media only screen and (max-width: 767px) {
   .logo-pic {
     max-width: 70%;
     height: auto;
@@ -178,9 +185,7 @@ footer {
     padding-top: 20px;
     font-weight: 400px;
   }
-  .navbar{
-    min-width: 255px;
-  }
+ 
   .navbar-brand {
     max-width: 65%;
   }
@@ -188,6 +193,66 @@ footer {
   .navbar-nav {
     min-height: 100vh;
   }
+
+  .nav1 {
+    padding-bottom: 1.5rem;
+  }
+
+  .text-uppercase {
+    font-size: .6rem;
+  }
+
+  .pb-2 {
+    padding-bottom: 0 !important;
+  }
+
+  .footer-logo {
+    max-width: 225px;
+    padding-bottom: 1rem;
+  }
+
+  .about-pg {
+    line-height: normal;
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  .about-info {
+    padding-top: 5rem;
+  }
+
+  .button {
+    line-height: normal;
+  }
+
 }
 
-/*end media queries */
+/* Styles for tablets */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .footer-logo {
+    max-width: 225px;
+  }
+
+  .pb-2 {
+    padding-bottom: 0 !important;
+  }
+
+  .about-pg {
+    line-height: normal;
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  .about-info {
+    padding-top: 5rem;
+    padding-bottom: 0;
+  }
+
+  .fonts > li {
+    margin-left: none!important;
+    font-size: 2rem;
+    padding: none!important;
+  }
+}
+
